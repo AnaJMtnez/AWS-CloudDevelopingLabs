@@ -1,2 +1,2 @@
 # AWS-CloudDevelopingLabs
-# LAB 6.1
+# LAB 7.1
