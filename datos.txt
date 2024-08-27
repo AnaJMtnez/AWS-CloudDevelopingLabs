@@ -1,0 +1,14 @@
+ElastiCache for Memcached endpoint
+memcachedcache.mq6sit.cfg.use1.cache.amazonaws.com
+
+
+Aurora Serverless cluster endpoint
+supplierdb.cluster-cujxumia45mm.us-east-1.rds.amazonaws.com
+
+aws ecr get-login-password \
+--region us-east-1 | docker login --username AWS \
+--password-stdin 971342265654.dkr.ecr.us-east-1.amazonaws.com
+
+docker tag node_app:latest 971342265654.dkr.ecr.us-east-1.amazonaws.com/cafe/node-web-app:latest
+
+docker push 971342265654.dkr.ecr.us-east-1.amazonaws.com/cafe/node-web-app:latest
