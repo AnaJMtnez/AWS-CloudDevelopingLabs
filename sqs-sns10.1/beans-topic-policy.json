@@ -1,5 +1,0 @@
-{
-    "TopicArn": "arn:aws:sns:us-east-1:164288470743:updated_beans_sns.fifo",
-    "AttributeName": "Policy",
-    "AttributeValue": "{\"Version\": \"2008-10-17\",\"Id\": \"BeansTopicPolicy\",\"Statement\": [{\"Sid\": \"BeansAllowActions\",\"Effect\": \"Allow\",\"Principal\": {\"AWS\": \"arn:aws:iam::164288470743:root\"},\"Action\": [\"SNS:Publish\",\"SNS:RemovePermission\",\"SNS:SetTopicAttributes\",\"SNS:DeleteTopic\",\"SNS:ListSubscriptionsByTopic\",\"SNS:GetTopicAttributes\",\"SNS:Receive\",\"SNS:AddPermission\",\"SNS:Subscribe\"],\"Resource\": \"arn:aws:sns:us-east-1:164288470743:updated_beans_sns.fifo\",\"Condition\": {\"StringEquals\": {\"AWS:SourceOwner\": \"164288470743\"}}},{\"Sid\": \"BeansAllowPublish\",\"Effect\": \"Allow\",\"Principal\": {\"AWS\": \"arn:aws:iam::164288470743:root\"},\"Action\": \"SNS:Publish\",\"Resource\": \"arn:aws:sns:us-east-1:164288470743:updated_beans_sns.fifo\"}]}"
-}
