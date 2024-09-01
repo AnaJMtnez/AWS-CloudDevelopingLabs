@@ -1,0 +1,10 @@
+dominio CLOUDFRONT https://d1xm07svy0e8os.cloudfront.net
+
+Cognito domain: https://ajmm01-09   .auth.us-east-1.amazoncognito.com
+
+https://d1xm07svy0e8os.cloudfront.net/callback.html
+
+Invoke URL
+https://yi189dzdk6.execute-api.us-east-1.amazonaws.com/prod/create_report
+
+https://ajmm01-09.auth.us-east-1.amazoncognito.com/login?client_id=76hlptmlig434eb7ek1cf5q8pe&response_type=token&scope=email+openid&redirect_uri=https%3A%2F%2Fd1xm07svy0e8os.cloudfront.net%2Fcallback.html
